@@ -7,7 +7,7 @@ services:
     restart: always
     command: ['--redis-host', 'redis']
     environment:
-      - DISCORD_TOKEN=MTMwMjA1MzEwOTkxNjUwNDEyNA.GeA8NZ.HFaDyGHEsT1aBkmckounrXTP5jla2m3JPjsC9s
+      - DISCORD_TOKEN=
       - OLLAMA_HOST=http://host.docker.internal:11419
       - OLLAMA_PORT=11419
       - OLLAMA_MODEL=mymodel
